@@ -2,15 +2,15 @@ import React, { useState } from "react";
 import Rough from "../Roughjava/Rough";
 import Portion from "../Roughjava/Portion";
 import Post from "../../Postscreen/Post";
-import Signup from "../Screens/Signupscreen/Signup";
 import Users from "../Screens/Userscreen/Users";
+import Signup from "../Screens/SignUpScreen/SignUp";
 
 const Home = () => {
   return (
     <div>
+      <Signup />
       {/* <Users /> */}
-      <Post />
-      {/* <Signup />
+      {/* <Post /> */}
       {/* <Rough /> */}
       {/* <Portion /> */}
     </div>
